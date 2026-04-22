@@ -7,24 +7,59 @@ A modern, vibrant redesign of the Xarela social association website featuring a 
 2. **Professional**: Clean typography and structured layouts convey the credibility of a serious non-profit organization
 3. **Energetic**: Bold use of orange accents and engaging imagery creates enthusiasm for the association's mission
 
-**Complexity Level**: Content Showcase (information-focused)
-This is primarily an informational website showcasing the association's mission, services, and latest news with navigation to key sections.
+**Complexity Level**: Light Application (multiple features with basic state)
+This is a multi-page informational website with routing showcasing the association's mission, services, news, ways to help, acknowledgments, and contact information across dedicated pages.
 
 ## Essential Features
 
-### Hero Section with Mission Statement
-- **Functionality**: Large hero area with "Somos XARELA" heading and mission description
+### Home Page (INICIO)
+- **Functionality**: Hero section with "Somos XARELA" heading, mission description, "Que facemos?" section with feature cards, newsletter widget, and latest news sidebar
 - **Purpose**: Immediately communicate the organization's identity and purpose to visitors
-- **Trigger**: Page load
-- **Progression**: Page loads → Hero image with child appears → Mission text overlays with subtle fade-in → Call-to-action visible
+- **Trigger**: Navigation to home route (/)
+- **Progression**: Route loads → Hero displays → Content sections appear → Sidebar widgets visible
 - **Success criteria**: Visitors understand what Xarela does within 3 seconds
 
-### Navigation Menu
-- **Functionality**: Horizontal navigation bar with links: INICIO, LABOR SOCIAL, NOVAS, ¿QUÉ PODES FACER?, AGRADECEMENTOS, CONTACTO
-- **Purpose**: Provide clear access to all major sections of the website
+### Labor Social Page
+- **Functionality**: Detailed breakdown of social programs, services offered, and impact statistics
+- **Purpose**: Provide comprehensive information about all social work initiatives
+- **Trigger**: Navigation to /labor-social route
+- **Progression**: Route loads → Header appears → Service cards display in grid → Impact statistics visible
+- **Success criteria**: Clear presentation of 6+ social programs with descriptions and details
+
+### News Page (NOVAS)
+- **Functionality**: Grid of news articles with images, excerpts, categories, and dates; click to view full article; back button to return to list
+- **Purpose**: Keep visitors informed about activities, events, and updates
+- **Trigger**: Navigation to /novas route
+- **Progression**: Route loads → News grid displays → User clicks article → Full article view → Back button returns to grid
+- **Success criteria**: News articles properly formatted with filtering and detail view
+
+### How to Help Page (¿QUÉ PODES FACER?)
+- **Functionality**: Six actionable ways to support the organization with descriptions and call-to-action buttons
+- **Purpose**: Convert visitors into volunteers, donors, or supporters
+- **Trigger**: Navigation to /que-podes-facer route
+- **Progression**: Route loads → Support option cards display → CTAs clearly visible → User clicks for more info
+- **Success criteria**: Clear pathways for volunteering, donating, and collaborating
+
+### Acknowledgments Page (AGRADECEMENTOS)
+- **Functionality**: Categorized listing of supporters including institutions, businesses, volunteers, and collaborators
+- **Purpose**: Recognize and thank supporters while building credibility
+- **Trigger**: Navigation to /agradecementos route
+- **Progression**: Route loads → Category sections display → Support cards visible in organized groups
+- **Success criteria**: All supporters properly categorized and displayed with appropriate details
+
+### Contact Page (CONTACTO)
+- **Functionality**: Contact form with validation, contact information cards, office hours, map placeholder, and social media links
+- **Purpose**: Provide multiple ways for visitors to reach the organization
+- **Trigger**: Navigation to /contacto route
+- **Progression**: User loads page → Info cards display → User fills form → Validation → Success toast → Form resets
+- **Success criteria**: Form submits successfully with proper validation and user feedback
+
+### Navigation Menu with Routing
+- **Functionality**: Horizontal navigation bar with links: INICIO, LABOR SOCIAL, NOVAS, ¿QUÉ PODES FACER?, AGRADECEMENTOS, CONTACTO - each navigating to dedicated pages
+- **Purpose**: Provide clear access to all major sections of the website with full page routing
 - **Trigger**: Always visible at top of page
-- **Progression**: User hovers menu item → Item highlights → User clicks → Navigation to section
-- **Success criteria**: All menu items accessible and clearly labeled in Galician
+- **Progression**: User hovers menu item → Item highlights → User clicks → Route to dedicated page → Active route highlighted
+- **Success criteria**: All menu items accessible and clearly labeled in Galician with active route indication
 
 ### Newsletter Subscription
 - **Functionality**: Email input form for newsletter signup
