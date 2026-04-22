@@ -15,12 +15,12 @@ export function HeroSection() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
         <div className="max-w-3xl animate-fade-in">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 tracking-tight" style={{ fontFamily: 'Outfit', letterSpacing: '-0.02em' }}>
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 tracking-tight" style={{ fontFamily: 'Outfit', letterSpacing: '-0.02em' }}>
             Somos <span className="text-accent">XARELA</span>
           </h1>
-          <p className="text-lg md:text-xl text-primary-foreground/90 leading-relaxed">
+          <p className="text-lg md:text-xl text-white/95 leading-relaxed">
             Unha asociación de ámbito autonómico formada principalmente por profesionais do ámbito social e educativo. 
-            A idea de crear esta asociación xurde en 1999, e parte do sentir dos seus membros que apreciaron ó longo da súa 
+            A idea de crear esta asociación xurge en 1999, e parte do sentir dos seus membros que apreciaron ó longo da súa 
             traxectoria profesional, a necesidade de cubrir carencias sociais, asistenciais, culturais e lúdicas, tanto nas 
             distintas institucións relacionadas con colectivos sociais desfavorecidos como na propia administración.
           </p>
